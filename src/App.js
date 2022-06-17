@@ -1,0 +1,29 @@
+import logo from './logo.svg';
+import './App.css';
+import Title from './components/samples';
+import Welcome from './components/welcome';
+import Hi from './components/hello';
+
+function App() {
+  return (
+    <div className="App">
+      <Title className="Bruce" heroName="Batman">
+
+        <p>This is children props.....</p>
+      </Title>
+      <Title className="Clark" heroName="Superman">
+        <button>Click</button>
+      
+      </Title>
+      <Title className="Diana" heroName="Wonderwoman">
+        <input type="text" placeholder="Enter Text"></input>
+
+      </Title>
+      <Welcome className="Bruce" heroName="Batman"/>
+      <Welcome className="Clark" heroName="Superman"/>
+      <Welcome className="Diana" heroName="Wonderwoman"/>
+    </div>
+  );
+}
+
+export default App;
