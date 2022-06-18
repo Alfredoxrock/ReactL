@@ -3,6 +3,7 @@ import './App.css';
 import Title from './components/samples';
 import Welcome from './components/welcome';
 import Hi from './components/hello';
+import Message from './components/message';
 
 function App() {
   return (
@@ -22,6 +23,8 @@ function App() {
       <Welcome className="Bruce" heroName="Batman"/>
       <Welcome className="Clark" heroName="Superman"/>
       <Welcome className="Diana" heroName="Wonderwoman"/>
+
+      <Message/>
     </div>
   );
 }
