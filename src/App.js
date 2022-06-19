@@ -4,10 +4,12 @@ import Title from './components/samples';
 import Welcome from './components/welcome';
 import Hi from './components/hello';
 import Message from './components/message';
+import Counter from './components/Counter';
 
 function App() {
   return (
     <div className="App">
+      <Counter></Counter>
       <Title className="Bruce" heroName="Batman">
 
         <p>This is children props.....</p>
