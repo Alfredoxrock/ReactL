@@ -5,10 +5,14 @@ import Welcome from './components/welcome';
 import Hi from './components/hello';
 import Message from './components/message';
 import Counter from './components/Counter';
+import FunctionClick from './components/FunctionClick'; 
+import ClassClick from './components/ClassClick';
 
 function App() {
   return (
     <div className="App">
+      <FunctionClick/>
+      <ClassClick/>
       <Counter></Counter>
       <Title className="Bruce" heroName="Batman">
 
